@@ -4,7 +4,7 @@ data = {
     'Student': ['Alice', 'Bob', 'Charlie'],
     'English': [85, 78, 92],
     'Math': [90, 88, 95],
-    'Science': [78, 82, 85]
+    'Science': [78, 82, 89]
 }
 
 df = pd.DataFrame(data)
