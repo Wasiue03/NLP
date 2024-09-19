@@ -13,7 +13,7 @@ df['Average'] = df[['English', 'Math', 'Science']].mean(axis=1)
 
 def subject_analysis(row):
     max_subject = row[['English', 'Math', 'Science']].idxmax()
-    min_subject = row[['English', 'Math', 'Science']].idxmin()
+    min_subject = row[['English', 'MaTH', 'Science']].idxmin()
     return max_subject, min_subject
 
 df['Strength'], df['Weakness'] = zip(*df.apply(subject_analysis, axis=1))
